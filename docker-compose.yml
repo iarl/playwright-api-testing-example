@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+    playwright-api-tests:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: playwright-api-tests-example
+        environment: 
+            env_file: .env
+
+        container_name: playwright-api-tests
+        ports: 
+            - 3006:3006

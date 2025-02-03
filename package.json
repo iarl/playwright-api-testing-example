@@ -1,0 +1,26 @@
+{
+  "name": "playwright-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "dotenvx run -f .env -- npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/chai": "*",
+    "@types/chai-json-schema": "*",
+    "@types/node": "^20.12.12",
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.5.0"
+  }
+}
